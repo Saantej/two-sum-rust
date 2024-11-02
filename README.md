@@ -50,3 +50,7 @@ This project requires Rust to compile and run the code.
 2.Build and run the project using Cargo:
    ```bash
 cargo run
+```
+### Testing
+```bash
+cargo test
