@@ -44,7 +44,7 @@ This project requires Rust to compile and run the code.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/two-sum-rust.git
+   git clone git@github.com:Saantej/two-sum-rust.git
    cd two-sum-rust
 
 2.Build and run the project using Cargo:
