@@ -57,11 +57,6 @@ mod tests {
         assert_eq!(two_sum(vec![1, 2, 3], 7), vec![]);
     }
 
-    // #[test]
-    // fn test_two_sum_with_negatives() {
-    //     assert_eq!(two_sum(vec![1, -2, 3, 4, -1], 2), vec![1, 4]);
-    // }
-
     #[test]
     fn test_two_sum_large_numbers() {
         assert_eq!(two_sum(vec![1000000, 500, 500000, 500000], 1000000), vec![2, 3]);
