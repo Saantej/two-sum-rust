@@ -4,7 +4,6 @@ pub fn two_sum(mut nums: Vec<i32>, target: i32) -> Vec<i32> {
 'outer: for (i, value) in nums.iter().enumerate() {
             let mut nums_new = nums.clone();
             nums_new.remove(i);
-            println!("{nums_new:?}");
             for (_i, value_two) in nums_new.iter().enumerate() {
                 if (value + value_two) == target.try_into().unwrap() {
                     if value == value_two {
